@@ -1,0 +1,91 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5f64a9acf5d32d18273924ff/1605072118203-V6H8SIRVI6YZXJ3RAVCX/002022_Bakes+by+Her_Web+banner_1920x960px_main%2872dpi%29.png?format=2500w);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color:burlywood;
+    padding: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+  }
+  
+  .logo {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .navigation {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+  }
+  
+  .navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navigation ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .navigation ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Main Content Styles */
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h1, h2 {
+    color:darkslategrey;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color:brown;
+    line-height: 1.5;
+  }
+  
+  address {
+    font-style: normal;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color:darkslategray;
+    color:antiquewhite;
+    padding: 20px;
+    text-align: center;
+  }
+  

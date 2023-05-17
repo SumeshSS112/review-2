@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    line-height: 1.4;
+    background-image: url(https://previews.123rf.com/images/itimtangmo/itimtangmo1902/itimtangmo190200025/124847036-sprinkle-pattern-seamless-in-pastel-color-for-candy-background-baby-fabric-print-bakery-wallpaper-te.jpg);
+    color:firebrick;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+header {
+    box-shadow: 0 2px 5px rgba(9, 9, 9, 0.1);
+    background-color: burlywood;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color:darkslategrey;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+    color:darkorange;
+}
+
+
+main {
+    margin-top: 100px;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+
+.menu-item {
+    background-color:burlywood;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color:darkorange;
+    color:aliceblue;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in
+}
+  
